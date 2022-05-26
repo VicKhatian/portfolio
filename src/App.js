@@ -1,11 +1,33 @@
-import React from "react";
 import "./App.css";
-//import customBtn from "./components/customBtn";
 
 function App() {
   return (
     <div className="App">
-      <div>I'm here?</div>
+      <body>
+        <header>
+          <h1>This is a header</h1>
+          <nav>
+            <ul>
+              <li>
+                <a href="#stealth">Link1</a>
+              </li>
+
+              <li>
+                <a href="#combat">Link2</a>
+              </li>
+
+              <li>
+                <a href="#weapons">Link3</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          This is main
+          <section>Section about myself</section>
+          <section>Section about my projects</section>
+        </main>
+      </body>
     </div>
   );
 }
