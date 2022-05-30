@@ -13,3 +13,8 @@ Packages:
 Fonts (in htlm):
 Roboto Flex. CSS rules: font-family: 'Roboto Flex', sans-serif;
 F
+
+Remember that folks using assistive technologies rely on organised, semantically meaningful markup to better understand your work.
+This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
+
+tabindex for the projects
