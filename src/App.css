@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Flex:400,700,300,100,950|Noto+Sans:400|Roboto:400,300");
-
-.App {
-  text-align: center;
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -13,52 +7,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Flex:400,700,300,100,950|Noto+Sans:400|Roboto:400,300");
 
-#myself {
-  background-color: rgb(193, 213, 241);
-  width: 100%;
-  height: 50%;
-}
-
-#myprojects {
-  background-color: rgb(245, 198, 214);
-  width: 100%;
-  height: 50%;
-}
-
-.valign-text-middle {
+.app {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.navbar {
-  align-items: flex-start;
-  display: flex;
-  height: 101px;
-  padding: 30px 21px;
-  width: 1508px;
-}
-
-.name {
-  height: 36px;
-  letter-spacing: 2.4px;
   text-align: center;
-  width: 291px;
-}
-
-.group-1 {
-  align-items: flex-start;
-  align-self: center;
-  display: flex;
-  margin-left: 785px;
-  min-width: 357px;
-}
-
-.group-1-item {
-  height: 19px;
-  letter-spacing: 1.6px;
-  text-align: center;
-  width: 117px;
+  position: relative;
+  width: 1512px;
+  height: 4568px;
 }
