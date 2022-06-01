@@ -82,13 +82,15 @@ function App() {
       </div>
       <div className="contact">
         <div className="contact-notes">open for interviews</div>
-        <div className="contact-title">SET UP 15 MIN MEETING</div>
-        <div className="contact-info"></div>
-        <div className="button">schedule a call</div>
+        <div className="contact-title">SET UP 15-30 MIN MEETING</div>
+        <div className="contact-info">
+          Set up a call with me to discover how I can leverage design to enhance
+          your products.
+        </div>
+        <div className="calendar-button">schedule a call</div>
       </div>
       <div className="footer">
         <div className="footer-left">
-          <div className="copyright-image">copyright img</div>
           <div className="year-curr">2022</div>
           <div className="copyright-info">Victoria Khatian London</div>
         </div>
