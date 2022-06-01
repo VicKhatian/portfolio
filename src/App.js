@@ -12,7 +12,6 @@ function App() {
         </div>
       </div>
       <div className="project1">
-        Project1
         <div className="project1-images">
           <div className="image-front">image-front</div>
           <div className="image-back">image-back</div>
@@ -52,8 +51,24 @@ function App() {
       </div>
       <div className="techstack">
         <div className="techstack-title">My techstack</div>
-        <div className="techstack-icon">React JS image</div>
-        <div className="techstack-name">React JS</div>
+        <div className="techstack-info">
+          <div className="tech1">
+            <div className="techstack-icon">React JS image</div>
+            <div className="techstack-name">React JS</div>
+          </div>
+          <div className="tech2">
+            <div className="techstack-icon">JS image</div>
+            <div className="techstack-name">JS</div>
+          </div>
+          <div className="tech3">
+            <div className="techstack-icon">Node image</div>
+            <div className="techstack-name">Node</div>
+          </div>
+          <div className="tech4">
+            <div className="techstack-icon">Express image</div>
+            <div className="techstack-name">Express</div>
+          </div>
+        </div>
       </div>
       <div className="contact">
         <div className="contact-notes">open for interviews</div>

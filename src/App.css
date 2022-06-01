@@ -18,3 +18,57 @@
   width: 1512px;
   height: 4568px;
 }
+
+.hero {
+  display: flex;
+  border-style: solid;
+  background-color: rgb(199, 194, 194);
+}
+
+.project1 {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+}
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  border-style: solid;
+}
+.project3 {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+}
+
+.techstack {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+}
+
+.techstack-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact {
+  border-style: solid;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-evenly;
+}
