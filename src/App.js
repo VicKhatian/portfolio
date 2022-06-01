@@ -18,39 +18,44 @@ function App() {
       </div>
       <div className="project1">
         <div className="project1-images">
-          <div className="image-front">image-front</div>
-          <div className="image-back">image-back</div>
+          <div className="p1-image-back">image-back</div>
+          <div className="p1-image-front">image-front</div>
         </div>
         <div className="project1-info">
-          <div className="project1-notes">tech stack</div>
+          <div className="project1-notes">NODE TYPESCRIPT</div>
           <div className="project1-title">Weather App</div>
           <div className="project1-paragraph">
-            short description of the project 1
+            Description of the app, how marketing and innovation teams leverage
+            design to turn disruptive technologies into real products that
+            generate revenue and earn consumer interest.
           </div>
         </div>
       </div>
       <div className="project2">
         <div className="project2-images">
-          <div className="image-front">image-front</div>
-          <div className="image-back">image-back</div>
+          <div className="p2-image-back">image-back</div>
+          <div className="p2-image-front">image-front</div>
         </div>
         <div className="project2-info">
           <div className="project2-notes">tech stack</div>
           <div className="project2-title">Help Desk App</div>
           <div className="project2-paragraph">
-            short description of the project 2
+            Description of the app, how marketing and innovation teams leverage
+            design to turn disruptive technologies into real products that
+            generate revenue and earn consumer interest.
           </div>
         </div>
       </div>
       <div className="project3">
         <div className="project3-images">
-          <div className="image">image</div>
+          <div className="p3-image">image</div>
         </div>
         <div className="project3-info">
           <div className="project3-notes">tech stack</div>
           <div className="project3-title">Help Desk App</div>
           <div className="project3-paragraph">
-            short description of the project 3
+            short description of the project 3, description of the,description
+            of the,description of the
           </div>
         </div>
       </div>
