@@ -1,0 +1,110 @@
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  border-style: solid;
+  position: absolute;
+  width: 1495px;
+  height: 801px;
+  left: 9px;
+  top: 1774px;
+  background-color: rgb(212, 212, 160);
+}
+
+.project2-images {
+  position: absolute;
+  width: 650px;
+  height: 619px;
+  left: 791px;
+  top: 26px;
+  border: solid rebeccapurple;
+}
+
+.p2-image-back {
+  position: absolute;
+  width: 363px;
+  height: 575px;
+  left: 237px;
+  top: 19px;
+
+  background-color: pink;
+  /* background: url(.jpg); */
+}
+
+.p2-image-front {
+  position: absolute;
+  width: 454px;
+  height: 287px;
+  left: 41px;
+  top: 209px;
+
+  background-color: rgb(160, 147, 149);
+  /* background: url(.jpg); */
+  border-radius: 0px;
+}
+
+.project2-info {
+  position: absolute;
+  width: 700px;
+  height: 399px;
+  left: 91px;
+  top: 176px;
+  border: solid red;
+}
+
+.project2-notes {
+  position: absolute;
+  width: 210px;
+  height: 19px;
+  left: 40px;
+  top: 67px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19px;
+  /* identical to box height, or 190% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: #0e0e0e;
+}
+
+.project2-title {
+  position: absolute;
+  width: 348px;
+  height: 34px;
+  left: 40px;
+  top: 106px;
+  border: solid rebeccapurple;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.project2-paragraph {
+  position: absolute;
+  width: 546px;
+  height: 96px;
+  left: 40px;
+  top: 167px;
+  border: solid rebeccapurple;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #333333;
+}
