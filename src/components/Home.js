@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import "./Home.css";
 
 function Home() {
@@ -83,23 +84,13 @@ function Home() {
       <div className="contact">
         <div className="contact-notes">open for interviews</div>
         <div className="contact-title">SET UP 15-30 MIN MEETING</div>
-        <div className="contact-info">
+        <div className="contact-p">
           Set up a call with me to discover how I can leverage design to enhance
           your products.
         </div>
         <div className="calendar-button">schedule a call</div>
       </div>
-      <div className="footer">
-        <div className="footer-left">
-          <div className="year-curr">2022</div>
-          <div className="copyright-info">Victoria Khatian London</div>
-        </div>
-        <div className="footer-right">
-          <div className="linkedin">LinkedIn</div>
-          <div className="github">GitHub</div>
-          <div className="footer-contact">Contact</div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

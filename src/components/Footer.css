@@ -1,0 +1,96 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 1512px;
+  height: 148px;
+  left: 0px;
+  top: 4420px;
+  background-color: lightblue;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 359px;
+  height: 63px;
+  left: 88px;
+  top: 52px;
+  background-color: burlywood;
+}
+
+.copyright-image {
+}
+
+.year-curr {
+  position: absolute;
+  width: 33px;
+  height: 23px;
+  left: 20px;
+  top: 23px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+
+  color: #3a3a3a;
+}
+
+.copyright-info {
+  position: absolute;
+  width: 350px;
+  height: 23px;
+  left: 58px;
+  top: 23px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+
+  color: #3a3a3a;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 225px;
+  height: 63px;
+  left: 1173px;
+  top: 50px;
+  background-color: burlywood;
+}
+
+.linkedin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 37px;
+  top: 24px;
+
+  border-radius: 0px;
+}
+
+.footer-contact {
+  position: absolute;
+  width: 51px;
+  height: 20px;
+  left: 155px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+
+  color: #3a3a3a;
+}
