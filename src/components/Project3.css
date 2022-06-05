@@ -2,49 +2,42 @@
   display: flex;
   justify-content: space-around;
   position: absolute;
-  width: 1504px;
-  height: 638px;
-  left: 3px;
-  top: 2597px;
-  background-color: rgb(199, 146, 66);
+  left: 0px;
+  right: 0px;
+  top: 58.93%;
+  bottom: 21.6%;
 }
 
 .project3-images {
   position: absolute;
-  width: 614px;
-  height: 408px;
-  left: 97px;
-  top: 37px;
-  border: solid blue;
+  width: 562px;
+  left: calc(50% - 562px / 2 - 333px);
+  top: 74px;
+  bottom: 96px;
 }
 
 .p3-image {
   position: absolute;
-  width: 559px;
-  height: 362px;
-  left: 24px;
-  top: 18px;
-
-  background-color: pink;
-  /* background: url(.jpg); */
-  border-radius: 0px;
+  width: 537px;
+  height: 360px;
+  right: 12px;
+  top: calc(50% - 360px / 2);
 }
 
 .project3-info {
   position: absolute;
-  width: 713px;
-  height: 365px;
-  left: 697px;
-  top: 52px;
-  border: solid red;
+  width: 593px;
+  left: calc(50% - 593px / 2 + 306.5px);
+  top: 72px;
+  bottom: 98px;
 }
 
 .project3-notes {
   position: absolute;
-  width: 210px;
+  width: 593px;
   height: 19px;
-  left: 59px;
-  top: 112px;
+  left: 0px;
+  top: calc(50% - 19px / 2 - 88.5px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -60,10 +53,10 @@
 
 .project3-title {
   position: absolute;
-  width: 470px;
+  width: 593px;
   height: 34px;
-  left: 59px;
-  top: 151px;
+  left: 0px;
+  top: calc(50% - 34px / 2 - 42px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -79,10 +72,10 @@
 
 .project3-paragraph {
   position: absolute;
-  width: 592px;
+  width: 593px;
   height: 96px;
-  left: 59px;
-  top: 212px;
+  left: 0px;
+  top: calc(50% - 96px / 2 + 50px);
 
   font-family: "Roboto";
   font-style: normal;
