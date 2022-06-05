@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-left">
           <div className="year-curr">2022</div>
-          <div className="copyright-info">Victoria Khatian London</div>
+          <div className="copyright-info">
+            Built and designed by Victoria Khatian
+          </div>
         </div>
         <div className="footer-right">
           <div className="linkedin">LinkedIn</div>
