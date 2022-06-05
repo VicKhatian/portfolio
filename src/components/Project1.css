@@ -1,63 +1,49 @@
 .project1 {
-  display: flex;
-  justify-content: space-around;
-  border: 2px solid;
   position: absolute;
-  width: 100%;
-  height: 792px;
-  left: 0px;
-  top: 780px;
-  background-color: rgba(216, 194, 194, 0.671);
+  width: 1512px;
+  left: calc(50% - 1512px / 2);
+  top: 19.98%;
+  bottom: 60.55%;
 }
 
 .project1-images {
   position: absolute;
-  width: 637px;
-  height: 661px;
-  left: 86px;
-  top: 58px;
-  border: 2px solid red;
+  left: 153px;
+  right: 799px;
+  top: 87px;
+  bottom: 83px;
 }
 
 .p1-image-back {
   position: absolute;
-  width: 363px;
   height: 575px;
-  left: 37px;
-  top: 86px;
-
-  background-color: pink;
-  /* background: url(.jpg); */
-  border-radius: 0px;
+  left: 0px;
+  right: 197px;
+  top: calc(50% - 575px / 2 - 0.5px);
 }
 
 .p1-image-front {
   position: absolute;
-  width: 454px;
   height: 287px;
-  left: 145px;
-  top: 258px;
-
-  background-color: rgb(201, 189, 191);
-  /* background: url(.jpg); */
-  border-radius: 0px;
+  left: 70px;
+  right: 36px;
+  top: calc(50% - 287px / 2 + 30.5px);
 }
 
 .project1-info {
   position: absolute;
-  width: 624px;
-  height: 400px;
-  left: 756px;
-  top: 161px;
-  border: 2px solid rgb(212, 154, 154);
+  left: 746px;
+  right: 153px;
+  top: 85px;
+  bottom: 85px;
 }
 
 .project1-notes {
   position: absolute;
-  width: 210px;
   height: 19px;
   left: 0px;
-  top: 104px;
+  right: 0px;
+  top: calc(50% - 19px / 2 - 88.5px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -65,6 +51,8 @@
   font-size: 10px;
   line-height: 19px;
   /* identical to box height, or 190% */
+  display: flex;
+  align-items: center;
   letter-spacing: 4px;
   text-transform: uppercase;
 
@@ -73,10 +61,10 @@
 
 .project1-title {
   position: absolute;
-  width: 321px;
   height: 34px;
   left: 0px;
-  top: 143px;
+  right: 0px;
+  top: calc(50% - 34px / 2 - 42px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -92,11 +80,10 @@
 
 .project1-paragraph {
   position: absolute;
-  width: 578px;
   height: 96px;
   left: 0px;
-  top: 204px;
-  text-align: left;
+  right: 0px;
+  top: calc(50% - 96px / 2 + 50px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -104,6 +91,10 @@
   font-size: 16px;
   line-height: 32px;
   /* or 200% */
+  display: flex;
+  align-items: center;
 
   color: #333333;
+
+  mix-blend-mode: darken;
 }
