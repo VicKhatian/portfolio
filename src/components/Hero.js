@@ -1,17 +1,19 @@
 import "./Hero.css";
+import logo from "../images/logo.png";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="landing-image">
+        <img src={logo} alt="computer"></img>
+      </div>
       <div className="hero-info">
         <div className="hero-name">Victoria Khatian</div>
         <div className="hero-bio">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Front-end developer building with love fully functioning apps and
+          components using JavaScript, React, based on different frameworks,
+          from ideation stage, prototyping, testing to deployment.
         </div>
-        <div className="button"></div>
       </div>
     </div>
   );
