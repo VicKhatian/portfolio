@@ -2,62 +2,51 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  border-style: solid;
   position: absolute;
-  width: 1495px;
-  height: 801px;
-  left: 9px;
-  top: 1774px;
-  background-color: rgb(212, 212, 160);
+  left: 0px;
+  right: 0px;
+  top: 39.45%;
+  bottom: 41.07%;
 }
 
 .project2-images {
   position: absolute;
-  width: 650px;
-  height: 619px;
-  left: 791px;
-  top: 26px;
-  border: solid rebeccapurple;
+  width: 560px;
+  left: calc(50% - 560px / 2 + 323px);
+  top: 69px;
+  bottom: 101px;
 }
 
 .p2-image-back {
   position: absolute;
   width: 363px;
   height: 575px;
-  left: 237px;
-  top: 19px;
-
-  background-color: pink;
-  /* background: url(.jpg); */
+  left: 197px;
+  top: calc(50% - 575px / 2 - 0.5px);
 }
 
 .p2-image-front {
   position: absolute;
   width: 454px;
   height: 287px;
-  left: 41px;
-  top: 209px;
-
-  background-color: rgb(160, 147, 149);
-  /* background: url(.jpg); */
-  border-radius: 0px;
+  left: 53px;
+  top: calc(50% - 287px / 2 - 0.5px);
 }
 
 .project2-info {
   position: absolute;
-  width: 700px;
-  height: 399px;
-  left: 91px;
-  top: 176px;
-  border: solid red;
+  width: 593px;
+  left: calc(50% - 593px / 2 - 306.5px);
+  top: 69px;
+  bottom: 101px;
 }
 
 .project2-notes {
   position: absolute;
-  width: 210px;
+  width: 593px;
   height: 19px;
-  left: 40px;
-  top: 67px;
+  right: 0px;
+  top: calc(50% - 19px / 2 - 88.5px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -73,11 +62,10 @@
 
 .project2-title {
   position: absolute;
-  width: 348px;
+  width: 593px;
   height: 34px;
-  left: 40px;
-  top: 106px;
-  border: solid rebeccapurple;
+  right: 0px;
+  top: calc(50% - 34px / 2 - 42px);
 
   font-family: "Roboto";
   font-style: normal;
@@ -93,11 +81,10 @@
 
 .project2-paragraph {
   position: absolute;
-  width: 546px;
+  width: 593px;
   height: 96px;
-  left: 40px;
-  top: 167px;
-  border: solid rebeccapurple;
+  right: 0px;
+  top: calc(50% - 96px / 2 + 50px);
 
   font-family: "Roboto";
   font-style: normal;
