@@ -1,22 +1,27 @@
-// import "./App.css";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import Home from "./components/Home";
-// import About from "./components/About";
-// import Error from "./components/Error";
-// import Navbar from "./components/Navbar";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Error from "./pages/Error";
 
-// function App() {
-//   return (
-//     <div className="app">
-//       <Home />
-//       {/* <Navbar />
-//       <Routes>
-//         <Route path="/" component={Home} />
-//         <Route path="/about" component={About} />
-//         <Route component={Error} />
-//       </Routes> */}
-//     </div>
-//   );
-// }
+function App() {
+  return (
+    <div className="app">
+      <Router>
+        <nav>
+          <Link to="/"> Home </Link>
+          <Link to="/about"> About </Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
 
-// export default App;
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <div> Foooter </div>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
