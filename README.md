@@ -18,3 +18,10 @@ Remember that folks using assistive technologies rely on organised, semantically
 This means it is important for the heading tags in your markup to have semantic meaning and relate to each other, not be picked merely for their size values.
 
 tabindex for the projects
+
+To create pages install:
+npm install react-router-dom
+
+1. wrap App in BrowserRouter in index.js and import { BrowserRouter, Route, Switch } from 'react-router-dom'; In react-router-dom v6, "Switch" is replaced by routes "Routes".
+2. add Switch in App component so it renders only 1 at a time. Import all the pages you need
+3.

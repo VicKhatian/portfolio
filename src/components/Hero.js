@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 
 const Hero = () => {
@@ -14,6 +15,7 @@ const Hero = () => {
           components using JavaScript, React, based on different frameworks,
           from ideation stage, prototyping, testing to deployment.
         </div>
+        <Link to="/about">About</Link>
       </div>
     </div>
   );
