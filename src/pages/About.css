@@ -67,19 +67,21 @@
 
 .skillset-p {
   position: absolute;
-  /* height: 34px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 34px / 2 - 42px); */
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 45px;
   line-height: 34px;
   /* identical to box height, or 100% */
   letter-spacing: 2px;
   text-transform: uppercase;
 
   color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .skillset-p {
+    font-size: 20px;
+  }
 }
