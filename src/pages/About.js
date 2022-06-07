@@ -4,9 +4,21 @@ import "./About.css";
 const About = () => {
   return (
     <div className="container">
-      <div className="section landing">more about me</div>
+      <div className="landing">
+        <p id="about-landing-p">
+          More about me. In computing, plain text is a loose term for data that
+          represent only characters of readable material but not its graphical
+          representation nor other objects. It may also include a limited number
+          of "whitespace" characters that affect simple arrangement of text,
+          such as spaces, line breaks, or tabulation characters.
+        </p>
+      </div>
+
       <div className="section">
-        <div className="block"> My skill set </div>
+        <div className="block">
+          {" "}
+          <p className="skillset-p">My tech stack</p>{" "}
+        </div>
         <div className="block">
           <p>JavaScrip </p>
           <p>Node JS</p>
