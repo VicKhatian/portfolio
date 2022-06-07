@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container">
       <div className="landing">
-        <p id="about-landing-p">
+        <p className="about-landing-p">
           More about me. In computing, plain text is a loose term for data that
           represent only characters of readable material but not its graphical
           representation nor other objects. It may also include a limited number
@@ -15,11 +15,10 @@ const About = () => {
       </div>
 
       <div className="section">
-        <div className="block">
-          {" "}
-          <p className="skillset-p">My tech stack</p>{" "}
+        <div className="block" id="center">
+          <p className="skillset-p">My tech stack</p>
         </div>
-        <div className="block">
+        <div className="block" id="list">
           <p>JavaScrip </p>
           <p>Node JS</p>
           <p>TypeScript</p>

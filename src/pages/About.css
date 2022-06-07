@@ -25,7 +25,7 @@
   background-size: auto;
 }
 
-#about-landing-p {
+.about-landing-p {
   margin-right: 100px;
   position: absolute;
   /* width: 40%; */
@@ -49,8 +49,37 @@
   border: solid black;
   width: 40%;
   height: 400px;
-  border: solid black;
   margin: 10px;
 
   text-align: center;
+}
+
+#center.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillset-p {
+  position: absolute;
+  /* height: 34px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 34px / 2 - 42px); */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #333333;
 }
