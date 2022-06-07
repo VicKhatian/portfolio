@@ -28,7 +28,14 @@ const About = () => {
           <p>Express</p>
         </div>
       </div>
-      <div className="section">section-2</div>
+      <div className="section">
+        <div className="block" id="2-img-left">
+          left images
+        </div>
+        <div className="block" id="left">
+          left info
+        </div>
+      </div>
     </div>
   );
 };

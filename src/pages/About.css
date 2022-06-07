@@ -71,7 +71,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
+  font-size: 20px;
   line-height: 34px;
   /* identical to box height, or 100% */
   letter-spacing: 2px;
@@ -80,8 +80,14 @@
   color: #333333;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 767px) {
   .skillset-p {
-    font-size: 20px;
+    font-size: 37px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .skillset-p {
+    font-size: 45px;
   }
 }
