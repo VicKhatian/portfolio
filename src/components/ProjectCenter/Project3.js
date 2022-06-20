@@ -1,5 +1,5 @@
 import "./Project3.css";
-import img from "../images/p3-image.png";
+import img from "../../images/p3-image.png";
 
 const Project3 = () => {
   return (

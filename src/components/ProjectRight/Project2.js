@@ -1,6 +1,6 @@
 import "./Project2.css";
-import imgFront from "../images/p2-img-front.png";
-import imgBack from "../images/p2-img-back.png";
+import imgFront from "../../images/p2-img-front.png";
+import imgBack from "../../images/p2-img-back.png";
 
 const Project2 = () => {
   return (

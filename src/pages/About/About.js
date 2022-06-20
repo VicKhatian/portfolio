@@ -1,9 +1,11 @@
 import React from "react";
 import "./About.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 const About = () => {
   return (
     <div className="container">
+      <Navbar />
       <div className="landing">
         <p className="about-landing-p">
           More about me. In computing, plain text is a loose term for data that
@@ -26,6 +28,7 @@ const About = () => {
           <p>SQL / NoSQL</p>
           <p>UX / UI</p>
           <p>Express</p>
+          <p>Postman</p>
         </div>
       </div>
       <div className="section">
