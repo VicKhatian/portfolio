@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
 import ProjectCenter from "../../components/ProjectCenter/Project3";
 import ProjectRight from "../../components/ProjectRight/Project2";
-import ProjectLeft from "../../components/ProjectLeft/Project1";
+import ProjectLeft from "../../components/ProjectLeft/ProjectLeft";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 
