@@ -6,25 +6,36 @@
   position: relative;
   width: 100%;
   height: auto;
-  padding: 4vw 10vw 2vw 10vw;
+  padding: 4vw 0 2vw 0;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .project-section {
     flex-direction: column;
   }
 }
 
 .left-box {
+  /* border: solid red; */
+  padding-left: 10vw;
   width: 50%;
+  min-height: 310px;
+}
+
+@media only screen and (max-width: 767px) {
+  .left-box {
+    padding-left: 1vw;
+  }
 }
 
 .back {
+  position: relative;
   width: 25vw;
   height: 40vw;
-  max-height: 600px;
-  max-width: 480px;
+  min-width: 191px;
+  min-height: 306px;
+  /* max-height: 600px;
+  max-width: 480px; */
   background-color: rgb(225, 219, 219);
-  /* background-image: url("../../images/p1-img-back.png"); */
   background-size: cover;
 }
 
@@ -39,14 +50,25 @@
   max-height: 400px;
   max-width: 650px;
   background-color: rgb(225, 219, 219);
-  /* background-image: url("../../images/p1-img-front.png"); */
   background-size: cover;
 }
 
+@media only screen and (max-width: 767px) {
+  .front {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 30vw;
+    min-width: 200px;
+    height: auto;
+    background-color: rgb(225, 219, 219);
+    background-size: cover;
+  }
+}
+
 .right-info-box {
+  /* border: solid green; */
   display: flex;
-  /* position: relative;
-  float: left; */
   flex-direction: column;
   justify-content: center;
   width: 50%;
@@ -59,6 +81,12 @@ h3 {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 767px) {
+  h3 {
+    margin-top: 10%;
+  }
+}
+
 h2 {
   font-weight: 400;
   font-size: 34px;
@@ -66,8 +94,23 @@ h2 {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 767px) {
+  h2 {
+    margin: 0;
+  }
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
   width: 75%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    width: 100%;
+  }
 }
