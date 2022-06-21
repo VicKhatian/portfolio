@@ -4,8 +4,8 @@ import imgBack from "../../images/p1-img-back.png";
 
 const ProjectLeft = () => {
   return (
-    <div className="project-section">
-      <div className="left-box">
+    <div className="project-left-section">
+      <div className="left-img-box">
         <img className="back" src={imgBack} alt="" />
         <img className="front" src={imgFront} alt="" />
       </div>

@@ -2,7 +2,7 @@ import "./Home.css";
 
 import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
-import ProjectCenter from "../../components/ProjectCenter/Project3";
+import ProjectCenter from "../../components/ProjectCenter/ProjectCenter";
 import ProjectRight from "../../components/ProjectRight/ProjectRight";
 import ProjectLeft from "../../components/ProjectLeft/ProjectLeft";
 import Hero from "../../components/Hero/Hero";

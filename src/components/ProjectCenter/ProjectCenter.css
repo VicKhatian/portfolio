@@ -1,4 +1,4 @@
-.project-left-section {
+.project-center-section {
   /* border: solid black; */
   display: flex;
   align-items: center;
@@ -10,12 +10,12 @@
   margin-top: 10vw;
 }
 @media only screen and (max-width: 767px) {
-  .project-left-section {
+  .project-center-section {
     flex-direction: column;
   }
 }
 
-.left-img-box {
+.left-img-center-box {
   /* border: solid red; */
   padding-left: 10vw;
   width: 50%;
@@ -23,46 +23,27 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .left-img-box {
+  .left-img-center-box {
     padding-left: 0;
   }
 }
 
-.left-img-box .back {
+.project-img {
   position: relative;
-  width: 25vw;
-  height: 40vw;
-  min-width: 191px;
-  min-height: 306px;
-  /* max-height: 600px;
-  max-width: 480px; */
-  background-color: rgb(225, 219, 219);
-  background-size: cover;
-}
-
-.left-img-box .front {
-  position: absolute;
-  left: 17%;
-  top: auto;
-  right: 0%;
-  bottom: 25%;
-  width: 30vw;
-  height: 19vw;
-  max-height: 400px;
-  max-width: 650px;
+  width: 40vw;
+  height: 35vw;
+  /* min-width: 270px;
+  min-height: 240px; */
   background-color: rgb(225, 219, 219);
   background-size: cover;
 }
 
 @media only screen and (max-width: 767px) {
-  .left-img-box .front {
-    position: absolute;
-    left: 40%;
-    top: 20%;
-    width: 30vw;
-    min-width: 200px;
-    height: auto;
-    background-color: rgb(225, 219, 219);
+  .project-img {
+    width: 40vw;
+    height: 35vw;
+    margin-top: 20%;
+    margin-left: 10%;
     background-size: cover;
   }
 }
