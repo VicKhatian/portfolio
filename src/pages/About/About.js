@@ -2,9 +2,20 @@ import React from "react";
 import "./About.css";
 import Landing from "../../components/Landing/Landing";
 import Navbar from "../../components/Navbar/Navbar";
+import Section2boxes from "../../components/Section2boxes/Section2boxes";
 import Footer from "../../components/Footer/Footer";
 import imgBack from "../../images/p1-img-back.png";
 import imgFront from "../../images/p2-img-front.png";
+
+let tech = [
+  "JavaScrip",
+  "React JS / Native",
+  "Node JS",
+  "Rest API",
+  "PostgreSQL / SQL",
+  "Express",
+  "Jest, TDD",
+];
 
 const About = () => {
   return (
@@ -15,6 +26,13 @@ const About = () => {
         details={
           "More about me. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
         }
+      />
+      <Section2boxes
+        notes={"learning is my passion"}
+        title={"tech stack"}
+        li={tech.map((e) => (
+          <li>{e}</li>
+        ))}
       />
       <div className="tech-section">
         <div className="left-info-box">

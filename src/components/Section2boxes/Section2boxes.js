@@ -1,20 +1,16 @@
 import "./Section2boxes.css";
 import React from "react";
 
-const Section2 = ({ note, title }) => {
+const Section2 = ({ notes, title, li }) => {
   return (
     <div className="tech-section">
       <div className="left-info-box">
-        <h3>{note}</h3>
+        <h3>{notes}</h3>
         <h2>{title}</h2>
       </div>
       <div className="right-info-box">
         <ul className="tech-list">
-          <li>JavaScrip</li>
-          <li>Node JS</li>
-          <li>React JS / Native</li>
-          <li>UX / UI</li>
-          <li>Express</li>
+          <li>{li}</li>
         </ul>
       </div>
     </div>
