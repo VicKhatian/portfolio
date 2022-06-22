@@ -1,5 +1,4 @@
-.tech-section {
-  /* border: solid black; */
+.info-section {
   display: flex;
   align-items: center;
   width: 100%;
@@ -20,8 +19,12 @@
   }
 }
 
-.tech-list > li {
-  margin: 2vw 0;
+.box-list {
+  padding: 0;
+}
+
+.box-list > li {
   font-size: 20px;
   font-weight: 100;
+  line-height: 40px;
 }

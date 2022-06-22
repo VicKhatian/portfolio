@@ -1,7 +1,7 @@
 import "./Home.css";
 
 import Footer from "../../components/Footer/Footer";
-import Contact from "../../components/Contact/Contact";
+import ContactMe from "../../components/ContactMe/ContactMe";
 import SectionRight1 from "../../components/SectionRight1/SectionRight1";
 import SectionLeft from "../../components/SectionLeft/SectionLeft";
 import SectionRight from "../../components/SectionRight/SectionRight";
@@ -40,7 +40,7 @@ function Home() {
         }
         img={require("../../images/p3-image.png")}
       />
-      <Contact />
+      <ContactMe />
       <Footer />
     </div>
   );

@@ -3,9 +3,10 @@ import "./About.css";
 import Landing from "../../components/Landing/Landing";
 import Navbar from "../../components/Navbar/Navbar";
 import Section2boxes from "../../components/Section2boxes/Section2boxes";
+import SectionRight1 from "../../components/SectionRight1/SectionRight1";
 import Footer from "../../components/Footer/Footer";
-import imgBack from "../../images/p1-img-back.png";
-import imgFront from "../../images/p2-img-front.png";
+import SectionLeft from "../../components/SectionLeft/SectionLeft";
+import SectionRight from "../../components/SectionRight/SectionRight";
 
 let tech = [
   "JavaScrip",
@@ -18,6 +19,7 @@ let tech = [
 ];
 
 const About = () => {
+  // when passing img src as prop use a word require()
   return (
     <div className="page-container">
       <Navbar />
@@ -34,48 +36,27 @@ const About = () => {
           <li>{e}</li>
         ))}
       />
-      <div className="tech-section">
-        <div className="left-info-box">
-          <h3>learning is my passion</h3>
-          <h2>tech stack</h2>
-        </div>
-        <div className="right-info-box">
-          <ul className="tech-list">
-            <li>JavaScrip</li>
-            <li>Node JS</li>
-            <li>React JS / Native</li>
-            <li>UX / UI</li>
-            <li>Express</li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-      <div className="project-left-section">
-        <div className="left-img-box">
-          <img className="back" src={imgBack} alt="" />
-          <img className="front" src={imgFront} alt="" />
-        </div>
-        <div className="right-info-box">
-          <h3>notes</h3>
-          <h2>Ballet</h2>
-          <p>I love to dance</p>
-        </div>
-      </div>
-      <div className="project-right-section">
-        <div className="left-info-box">
-          <h3>whenever have time</h3>
-          <h2>Galleries</h2>
-          <p>
-            The app let users to check the weather on the chosen location, for 8
-            days ahead with ability to expand a selected date for the details.
-          </p>
-        </div>
-        <div className="right-img-box">
-          <img className="back" src={imgBack} alt="" />
-          <img className="front" src={imgFront} alt="" />
-        </div>
-      </div>
+      <SectionRight
+        notes={"day after day"}
+        title={"ballet"}
+        details={"dancing and watching"}
+        imgBack={require("../../images/ballet-back.png")}
+        imgFront={require("../../images/ballet-front.png")}
+      />
+      <SectionLeft
+        notes={"always in my earbuds"}
+        title={"books"}
+        details={"reading and listening"}
+        imgBack={require("../../images/books-back.png")}
+        imgFront={require("../../images/books-front.png")}
+      />
+      <SectionRight1
+        notes={"whenever I have an hour"}
+        title={"galleries"}
+        details={"counsuming art is as important as learning"}
+        img={require("../../images/gallery.png")}
+      />
+
       <Footer />
     </div>
   );

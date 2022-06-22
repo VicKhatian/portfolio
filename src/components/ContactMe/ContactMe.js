@@ -1,6 +1,6 @@
-import "./Contact.css";
+import "./ContactMe.css";
 
-const Contact = () => {
+const ContactMe = () => {
   return (
     <div id="contact-me" className="contact-section">
       <h3>open for interviews</h3>
@@ -19,4 +19,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactMe;

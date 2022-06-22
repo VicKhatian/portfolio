@@ -2,27 +2,6 @@
   position: relative;
 }
 
-.landing-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-
-  background-image: url("../../images/about-img.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.tech-section {
-  /* border: solid black; */
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  min-height: 300px;
-  margin: 7vw 0;
-}
-
 @media only screen and (max-width: 767px) {
   .left-info-box > h3 {
     margin-left: 10vw;
@@ -33,10 +12,4 @@
   .left-info-box > h2 {
     margin-left: 10vw;
   }
-}
-
-.tech-list > li {
-  margin: 2vw 0;
-  font-size: 20px;
-  font-weight: 100;
 }
