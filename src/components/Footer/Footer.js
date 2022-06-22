@@ -4,17 +4,28 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
-        <div className="footer-left">
-          <div className="year-curr">2022</div>
-          <div className="copyright-info">
-            Built and designed by Victoria Khatian
-          </div>
-        </div>
-        <div className="footer-right">
-          <div className="linkedin">LinkedIn</div>
-          <div className="github">GitHub</div>
-          <div className="footer-contact">Contact</div>
-        </div>
+        <p className="footer-left">
+          Built and designed by Victoria Khatian © 2022
+        </p>
+        <p className="footer-right">
+          <a
+            className="footer-a"
+            href="https://www.linkedin.com/in/victoria-khatian/"
+            target="blank"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="footer-a"
+            href="https://github.com/VicKhatian"
+            target="blank"
+          >
+            GitHub
+          </a>
+          <a className="footer-a" href="/#" target="blank">
+            Contact
+          </a>
+        </p>
       </div>
     </div>
   );

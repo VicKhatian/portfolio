@@ -10,7 +10,7 @@ import Navbar from "../../components/Navbar/Navbar";
 
 function Home() {
   return (
-    <div className="homeapp">
+    <div className="homebody">
       <Navbar />
       <Hero />
       <ProjectLeft />
