@@ -1,7 +1,7 @@
 .nav {
   display: flex;
-  background-color: white;
-  justify-content: flex-start;
+  background-color: rgb(67, 65, 65);
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
@@ -11,9 +11,17 @@
   z-index: 10;
 }
 
+.icon {
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  margin-left: 4vw;
+  text-transform: uppercase;
+}
+
 .nav-list {
   display: flex;
-  margin-left: 2rem;
+  margin-right: 10vw;
 }
 
 ul {
@@ -25,12 +33,14 @@ ul {
 }
 
 .nav-list a {
-  display: block;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  margin-left: 4vw;
+  text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
-  color: var(--main-white);
+  color: black;
 }
