@@ -1,44 +1,64 @@
 import React from "react";
 import "./About.css";
+import Landing from "../../components/Landing/Landing";
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import imgBack from "../../images/p1-img-back.png";
+import imgFront from "../../images/p2-img-front.png";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="page-container">
       <Navbar />
-      <div className="landing">
-        <p className="about-landing-p">
-          More about me. In computing, plain text is a loose term for data that
-          represent only characters of readable material but not its graphical
-          representation nor other objects. It may also include a limited number
-          of "whitespace" characters that affect simple arrangement of text,
-          such as spaces, line breaks, or tabulation characters.
-        </p>
-      </div>
-
-      <div className="section">
-        <div className="block" id="center">
-          <p className="skillset-p">My tech stack</p>
+      <Landing
+        title={"That's the spirit"}
+        details={
+          "More about me. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
+        }
+      />
+      <div className="tech-section">
+        <div className="left-info-box">
+          <h3>learning is my passion</h3>
+          <h2>tech stack</h2>
         </div>
-        <div className="block" id="list">
-          <p>JavaScrip </p>
-          <p>Node JS</p>
-          <p>TypeScript</p>
-          <p>React JS / Native</p>
-          <p>SQL / NoSQL</p>
-          <p>UX / UI</p>
-          <p>Express</p>
-          <p>Postman</p>
+        <div className="right-info-box">
+          <ul className="tech-list">
+            <li>JavaScrip</li>
+            <li>Node JS</li>
+            <li>React JS / Native</li>
+            <li>UX / UI</li>
+            <li>Express</li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </div>
-      <div className="section">
-        <div className="block" id="2-img-left">
-          left images
+      <div className="project-left-section">
+        <div className="left-img-box">
+          <img className="back" src={imgBack} alt="" />
+          <img className="front" src={imgFront} alt="" />
         </div>
-        <div className="block" id="left">
-          left info
+        <div className="right-info-box">
+          <h3>notes</h3>
+          <h2>Ballet</h2>
+          <p>I love to dance</p>
         </div>
       </div>
+      <div className="project-right-section">
+        <div className="left-info-box">
+          <h3>whenever have time</h3>
+          <h2>Galleries</h2>
+          <p>
+            The app let users to check the weather on the chosen location, for 8
+            days ahead with ability to expand a selected date for the details.
+          </p>
+        </div>
+        <div className="right-img-box">
+          <img className="back" src={imgBack} alt="" />
+          <img className="front" src={imgFront} alt="" />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
