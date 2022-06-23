@@ -24,7 +24,7 @@ const About = () => {
     <div className="page-container">
       <Navbar />
       <Landing
-        title={"That's the spirit"}
+        title={"There's always more"}
         details={
           "More about me. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
         }
