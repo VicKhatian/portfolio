@@ -8,13 +8,13 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .left-info-box > h3 {
+  .left-info-box1 > h3 {
     margin-left: 10vw;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .left-info-box > h2 {
+  .left-info-box1 > h2 {
     margin-left: 10vw;
   }
 }
