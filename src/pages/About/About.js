@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { useEffect } from "react";
 import Landing from "../../components/Landing/Landing";
 import Navbar from "../../components/Navbar/Navbar";
 import Section2boxes from "../../components/Section2boxes/Section2boxes";
@@ -19,16 +20,22 @@ let tech = [
 ];
 
 const About = () => {
+  //use window.scrollTo(0, 0) to render page on top after refresh
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // when passing img src as prop use a word require()
   return (
     <div className="page-container">
       <Navbar />
-      <Landing
-        title={"There's always more"}
-        details={
-          "More about me. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
-        }
-      />
+      <div id="about-me-landing-img">
+        <Landing
+          title={"There's always more"}
+          details={
+            "More about me. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
+          }
+        />
+      </div>
       <Section2boxes
         notes={"learning is my passion"}
         title={"tech stack"}

@@ -1,30 +1,12 @@
-.info-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  min-height: 300px;
-  margin: 7vw 0;
+.page-container {
+  position: relative;
 }
 
-@media only screen and (max-width: 767px) {
-  .left-info-box > h3 {
-    margin-left: 10vw;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .left-info-box > h2 {
-    margin-left: 10vw;
-  }
-}
-
-.box-list {
-  padding: 0;
-}
-
-.box-list > li {
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 40px;
+/* this section is separate from component as there are different images for each page. Include this styling on each page */
+#contact-img {
+  color: white;
+  background-image: url("../../images/contact-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

@@ -2,6 +2,15 @@
   position: relative;
 }
 
+/* this section is separate from component as there are different images for each page. Include this styling on each page */
+#about-me-landing-img {
+  color: white;
+  background-image: url("../../images/about-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media only screen and (max-width: 767px) {
   .left-info-box > h3 {
     margin-left: 10vw;

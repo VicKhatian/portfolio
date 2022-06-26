@@ -1,4 +1,5 @@
 import "./Home.css";
+import { useEffect } from "react";
 
 import Footer from "../../components/Footer/Footer";
 import ContactMe from "../../components/ContactMe/ContactMe";
@@ -9,12 +10,17 @@ import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 
 function Home() {
+  //use window.scrollTo(0, 0) to render page on top after refresh
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     // when passing img src as prop use a word require()
     <div className="homebody">
       <Navbar />
       <Hero />
       <SectionRight
+        id="projects"
         notes={"Javascript React JS"}
         title={"weather app"}
         details={
