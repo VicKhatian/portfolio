@@ -1,5 +1,4 @@
 .project-left-section {
-  /* background-color: rgb(224, 218, 218); */
   display: flex;
   position: relative;
   padding: 10% 10%;
@@ -12,7 +11,6 @@
 }
 
 .left-img-box {
-  border: solid red;
   width: 50%;
   min-height: 310px;
 }
@@ -28,8 +26,6 @@
   height: 40vw;
   min-width: 191px;
   min-height: 306px;
-  /* max-height: 600px;
-  max-width: 480px; */
   background-color: rgb(225, 219, 219);
   background-size: cover;
 }
@@ -56,7 +52,6 @@
   min-height: 151px;
   background-color: rgb(225, 219, 219);
   background-size: cover;
-  vertical-align: baseline;
 }
 
 @media only screen and (max-width: 767px) {
@@ -68,13 +63,12 @@
 
 @media only screen and (max-width: 600px) {
   .left-img-box .front {
-    left: 30%;
+    left: 27%;
     top: 130px;
   }
 }
 
 .right-info-box {
-  /* border: solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,46 +78,59 @@
 @media only screen and (max-width: 767px) {
   .right-info-box {
     width: 100%;
+    align-items: center;
   }
 }
 
-h3 {
+@media only screen and (max-width: 600px) {
+  .right-info-box {
+    align-items: flex-start;
+  }
+}
+
+/* delete h3,h2 as its in index.css */
+/* h3 {
   font-weight: 400;
   font-size: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
-}
-
-@media only screen and (max-width: 767px) {
-  h3 {
-    margin-top: 10%;
-  }
-}
-
-h2 {
+} */
+/* h2 {
   font-weight: 400;
   font-size: 34px;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
-
-@media only screen and (max-width: 767px) {
-  h2 {
-    margin: 0;
-  }
-}
-
-p {
+} */
+/* p {
   font-weight: 400;
   font-size: 16px;
   width: 75%;
   text-align: justify;
+} */
+
+@media only screen and (max-width: 767px) {
+  .right-info-box > h3 {
+    margin-top: 10%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-  p {
+  .right-info-box > h2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .right-info-box > p {
     font-weight: 400;
-    font-size: 13px;
-    width: 100%;
+    font-size: 14px;
+    width: 80%;
+    margin: 15px 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .right-info-box > p {
+    margin: 15px 0;
   }
 }
