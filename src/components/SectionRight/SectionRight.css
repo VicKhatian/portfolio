@@ -1,13 +1,9 @@
 .project-left-section {
-  /* border: solid black; */
+  /* background-color: rgb(224, 218, 218); */
   display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  width: 100%;
+  padding: 10% 10%;
   height: auto;
-  padding: 4vw 0 2vw 0;
-  margin-top: 10vw;
 }
 @media only screen and (max-width: 767px) {
   .project-left-section {
@@ -16,20 +12,18 @@
 }
 
 .left-img-box {
-  /* border: solid red; */
-  padding-left: 10vw;
+  border: solid red;
   width: 50%;
   min-height: 310px;
 }
 
 @media only screen and (max-width: 767px) {
   .left-img-box {
-    padding-left: 0;
+    width: 100%;
   }
 }
 
 .left-img-box .back {
-  position: relative;
   width: 25vw;
   height: 40vw;
   min-width: 191px;
@@ -40,30 +34,42 @@
   background-size: cover;
 }
 
+@media only screen and (max-width: 767px) {
+  .left-img-box .back {
+    margin-left: 15vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left-img-box .back {
+    margin-left: 0;
+  }
+}
+
 .left-img-box .front {
   position: absolute;
-  left: 17%;
-  top: auto;
-  right: 0%;
-  bottom: 25%;
+  left: 17vw;
+  top: 22vw;
   width: 30vw;
   height: 19vw;
-  max-height: 400px;
-  max-width: 650px;
+  min-width: 238px;
+  min-height: 151px;
   background-color: rgb(225, 219, 219);
   background-size: cover;
+  vertical-align: baseline;
 }
 
 @media only screen and (max-width: 767px) {
   .left-img-box .front {
-    position: absolute;
-    left: 40%;
-    top: 20%;
-    width: 30vw;
-    min-width: 200px;
-    height: auto;
-    background-color: rgb(225, 219, 219);
-    background-size: cover;
+    left: 40vw;
+    top: 22vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left-img-box .front {
+    left: 30%;
+    top: 130px;
   }
 }
 
@@ -73,6 +79,12 @@
   flex-direction: column;
   justify-content: center;
   width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .right-info-box {
+    width: 100%;
+  }
 }
 
 h3 {

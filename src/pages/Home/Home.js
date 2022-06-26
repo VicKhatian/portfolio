@@ -29,6 +29,7 @@ function Home() {
         imgBack={require("../../images/p1-img-back.png")}
         imgFront={require("../../images/p1-img-front.png")}
       />
+
       <SectionLeft
         notes={"Javascript React JS"}
         title={"help desk"}

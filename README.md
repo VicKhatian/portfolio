@@ -1,5 +1,7 @@
 # Getting Started
 
+Deployed on https://victoria-khatian.netlify.app/
+
 App built in react by create-react-app name.
 To initialise - run npm i
 Node JS version - v16.13.0
