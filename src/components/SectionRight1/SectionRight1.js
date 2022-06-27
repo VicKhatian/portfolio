@@ -2,8 +2,8 @@ import "./SectionRight1.css";
 
 const SectionRight1 = ({ notes, title, details, img }) => {
   return (
-    <div className="project-center-section">
-      <div className="left-img-box">
+    <div className="right-1img-info-section">
+      <div className="left-1img-box">
         <img className="project-img" src={img} alt="" />
       </div>
       <div className="right-info-box">
