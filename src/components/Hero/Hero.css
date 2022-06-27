@@ -32,6 +32,16 @@
   }
 }
 
+@media only screen and (max-width: 440px) {
+  #name {
+    font-size: 45px;
+  }
+
+  #surname {
+    font-size: 45px;
+  }
+}
+
 .hero-bio {
   width: 60vw;
   margin: 5vw 10vw;

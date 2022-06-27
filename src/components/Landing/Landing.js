@@ -3,8 +3,8 @@ import React from "react";
 
 const Landing = ({ title, details }) => {
   return (
-    <div className="landing">
-      <h2 id="landing-title">{title}</h2>
+    <div className="landing-section">
+      <h1>{title}</h1>
       <p className="landing-details">{details}</p>
     </div>
   );

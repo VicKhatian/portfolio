@@ -1,4 +1,4 @@
-.landing {
+.landing-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,37 +6,34 @@
   height: 100vh;
 }
 
-#landing-title {
-  font-size: 80px;
-  font-weight: 200;
-  letter-spacing: 5px;
-  margin: 0 5vw 0 10vw;
-}
-
-@media only screen and (max-width: 1000px) {
-  #landing-title {
-    font-size: 70px;
-  }
+.landing-section > h1 {
+  margin: 0 10vw;
 }
 
 @media only screen and (max-width: 767px) {
-  #landing-title {
+  .landing-section > h1 {
     font-size: 60px;
   }
 }
 
+@media only screen and (max-width: 440px) {
+  .landing-section > h1 {
+    font-size: 45px;
+  }
+}
+
 .landing-details {
-  font-size: 24px;
-  font-weight: 300;
-  max-width: 700px;
-  width: auto;
-  margin: 10vw 10vw 0 10vw;
-  letter-spacing: 2px;
+  width: 60vw;
+  margin: 5vw 10vw;
+  font-weight: 200;
+  letter-spacing: 4px;
+  color: white;
+  text-align: left;
 }
 
 @media only screen and (max-width: 767px) {
   .landing-details {
-    font-size: 20px;
-    margin-top: 10vw;
+    width: 80%;
+    font-size: 14px;
   }
 }
