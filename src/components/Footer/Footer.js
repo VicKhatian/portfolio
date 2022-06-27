@@ -4,9 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
-        <p className="footer-left">
-          Built and designed by Victoria Khatian © 2022
-        </p>
+        <p>Built and designed by Victoria Khatian © 2022</p>
         <p className="footer-right">
           <a
             className="footer-a"
