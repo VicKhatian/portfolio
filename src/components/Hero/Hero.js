@@ -11,7 +11,7 @@ const Hero = () => {
         components using JavaScript, React, based on different frameworks, from
         ideation stage, prototyping, testing to deployment.
       </p>
-      <a className="aboutme-btn" href="/#" target="blank">
+      <a className="aboutme-btn" href="/about" target="blank">
         More about me
       </a>
     </div>
