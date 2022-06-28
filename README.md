@@ -27,3 +27,5 @@ npm install react-router-dom
 1. wrap App in BrowserRouter in index.js and import { BrowserRouter, Route, Switch } from 'react-router-dom'; In react-router-dom v6, "Switch" is replaced by routes "Routes".
 2. add Switch in App component so it renders only 1 at a time. Import all the pages you need
 3.
+
+File `netlify.toml` is used to enable refresh pages without error

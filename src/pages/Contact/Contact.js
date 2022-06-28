@@ -19,7 +19,7 @@ const Contact = () => {
         <Landing
           title={"Contact"}
           details={
-            "Get in touch. In computing, plain text is a loose term for data that represent only characters of readable material but not its graphica representation nor other objects."
+            "I appreciate your interest and would love to hear from you. Let's make awesome things together!"
           }
         />
       </div>

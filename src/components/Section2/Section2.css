@@ -1,0 +1,37 @@
+.info-2-section {
+  border: solid black;
+  display: flex;
+  position: relative;
+  padding: 10% 10%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .info-2-section {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-title-box {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.right-text-box {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  min-height: 310px;
+}
+@media only screen and (max-width: 767px) {
+  .right-text-box {
+    width: 100%;
+  }
+}
+
+.right-text-box > p {
+  /* border: solid green; */
+}
