@@ -3,7 +3,7 @@ import "./About.css";
 import { useEffect } from "react";
 import Landing from "../../components/Landing/Landing";
 import Navbar from "../../components/Navbar/Navbar";
-import Section2boxes from "../../components/Section2boxes/Section2boxes";
+import SectionRightList from "../../components/SectionRightList/SectionRightList";
 import SectionRight1 from "../../components/SectionRight1/SectionRight1";
 import Footer from "../../components/Footer/Footer";
 import SectionLeft from "../../components/SectionLeft/SectionLeft";
@@ -36,7 +36,7 @@ const About = () => {
           }
         />
       </div>
-      <Section2boxes
+      <SectionRightList
         notes={"learning is my passion"}
         title={"tech stack"}
         li={tech.map((e) => (
