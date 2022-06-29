@@ -19,12 +19,16 @@ function Home() {
     <div className="homebody">
       <Navbar />
       <Hero />
+      <div id="contact-me" className="contact-me-section">
+        <h3>sorry</h3>
+        <h2 id="message">consruction in progress</h2>
+      </div>
       <SectionRight
         id="projects"
         notes={"Javascript React JS"}
-        title={"weather app"}
+        title={"Fresh News"}
         details={
-          "The app let users to check the weather on the chosen location, for 8 days ahead with ability to expand a selected date for the details."
+          "The website gets news from the GNews API and allows users to seach the article by a keyword and navigate around different topics."
         }
         imgBack={require("../../images/p1-img-back.png")}
         imgFront={require("../../images/p1-img-front.png")}

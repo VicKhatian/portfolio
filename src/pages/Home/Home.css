@@ -1,3 +1,7 @@
 .homebody {
   position: relative;
 }
+
+#message {
+  font-size: 20px;
+}

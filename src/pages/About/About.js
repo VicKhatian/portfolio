@@ -41,7 +41,7 @@ const About = () => {
         <Landing
           title={"About me"}
           details={
-            "Essentialist. In constant state of exploring, thinking, questioning and debating."
+            "I'm a big believer in learning by doing and having fun. In constant state of exploring, thinking, questioning and debating."
           }
         />
       </div>
