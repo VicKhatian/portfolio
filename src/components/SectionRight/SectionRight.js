@@ -1,6 +1,7 @@
+// "CTA is call-to-action"
 import "./SectionRight.css";
 
-const SectionRight = ({ notes, title, details, imgBack, imgFront }) => {
+const SectionRight = ({ notes, title, details, imgBack, imgFront, CTA }) => {
   return (
     <div className="right-info-section">
       <div className="left-img-box">
@@ -11,6 +12,7 @@ const SectionRight = ({ notes, title, details, imgBack, imgFront }) => {
         <h3>{notes}</h3>
         <h2>{title}</h2>
         <p>{details}</p>
+        <p>{CTA}</p>
       </div>
     </div>
   );

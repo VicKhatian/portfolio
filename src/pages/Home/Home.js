@@ -21,17 +21,21 @@ function Home() {
       <Hero />
       <div id="contact-me" className="contact-me-section">
         <h3>sorry</h3>
-        <h2 id="message">consruction in progress</h2>
+        <h2 id="message">projects section under construction</h2>
       </div>
       <SectionRight
         id="projects"
         notes={"Javascript React JS"}
-        title={"Fresh News"}
+        title={<a href="https://daily-fresh-news.netlify.app">Fresh News</a>}
         details={
-          "The website gets news from the GNews API and allows users to seach the article by a keyword and navigate around different topics."
+          <a href="https://daily-fresh-news.netlify.app">
+            The website gets news from the GNews API and allows users to seach
+            the article by a keyword and navigate around different topics.
+          </a>
         }
         imgBack={require("../../images/p1-img-back.png")}
         imgFront={require("../../images/p1-img-front.png")}
+        CTA={<a href="https://github.com/VicKhatian/Fresh-News">/code/</a>}
       />
 
       <SectionLeft
